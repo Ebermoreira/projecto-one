@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.icon-apachespark{
+    font-size: 50px;
+    cursor: pointer;
+    transition: color 0.7s ease;
+    margin-right: 10px;
+}
+
+.header{
+    background:linear-gradient(150deg,#e389b9,#7a00c0,#525558 );
+    background-size: 190% 300%;
+    padding: 3rem;
+    
+    animation: BgGradient 3s ease infinite;
+}
+@keyframes BgGradient{
+    50%{
+        background-position: 30% 50%;
+    }
+    80%{
+        background-position: 60% 80%;
+    }
+    
+}
+.header .logoo{
+     color: white;
+     text-decoration: none;
+     transition: all 0.5s ease;
+     font-size: 40px;
+}
+.header .logoo:hover{
+    color: cornflowerblue;
+    font-size: 50px;
+}
+
+.barra{
+         
+         font-size: 25px;
+         float: right;
+         
+}
+.barra li a{
+    color: white;
+    text-decoration: none;
+
+    margin-left: 7vw;
+    
+    margin-right: 5vw;
+    transition: all 0.6s ease;
+}
+.barra li{
+    
+    display: inline-block;
+}
+li a:hover{
+   color: aqua;
+}
+
+
+
+.caja-articulo-one{
+    background-color: ivory;
+    height: 400px;
+
+}
+.articulo-one h3{
+    text-align: end;
+    margin-right: 450px;
+    font-size: 25px;
+    margin-right: 620px;
+    line-height: 80px;
+}
+.articulo-one img{
+    float: right;
+    width: 450px;
+    margin-right: 100px;
+}
+.articulo-one p{
+    width: 600px;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    float: right;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.articulo-dos{
+    background-color: ivory;
+    height: 400px;
+}
+.articulo-dos h3{
+    line-height: 80px;
+    text-align: center;
+    font-size: 25px;
+
+
+}
+.articulo-dos img{
+    float: left;
+    width: 320px;
+    margin-left: 60px;
+}
+
+.articulo-dos p{
+    width: 600px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    font-style: italic;
+    float: left;
+    margin-left: 60px;
+    margin-top: 120px;
+}
+.articulo-tres{
+    background-color: ivory;
+    height: 405px;
+}
+.articulo-tres h3{
+    line-height: 70px;
+    text-align: center;
+    font-size: 25px;
+}
+.articulo-tres img {
+    float: right;
+    width: 400px;
+    margin-right: 80px;
+}
+.articulo-tres p{
+    width: 600px;
+    margin-top: 80px;
+    float: left;
+    font-style: italic;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    float: right;
+    margin-right: 60px;
+}
+footer{
+    background:linear-gradient(150deg,#e389b9,#7a00c0,#525558 );
+    animation: BgGradient 3s ease infinite;
+    background-size: 300% 300%;
+    height: 140px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    margin-left: 10vw;
+    line-height: 8vw;
+    
+}
+
+footer .facebook{
+    transition: all 0.7s ease;
+}
+footer .facebook:hover{
+      color: rgb(96, 96, 255);
+      font-size: 24px;
+      font-style: italic;
+      border-bottom: ridge 5px blue ;
+      border-right: ridge 5px blue;
+}
+footer .instagram{
+   transition: all 0.7s ease;
+}
+footer .instagram:hover{
+    color: #fd8bb1;
+    font-size: 24px;
+    font-style: italic;
+    border-bottom: ridge 5px #e1306c ;
+    border-right: ridge 5px #e1306c;
+}
+footer .whatsapp{
+    transition: all 0.7s ease;
+}
+
+footer .whatsapp:hover{
+    color: #25d366;
+    font-size: 24px;
+    font-style: italic;
+    border-bottom: ridge 5px #25d366 ;
+    border-right: ridge 5px #25d366;
+}
+footer .telegram{
+    transition:all 0.7s ease ;
+}
+footer .telegram:hover{
+    color: #6cc1e3;
+    font-size: 24px;
+    font-style: italic;
+    border-bottom: ridge 5px #4995be;
+    border-right: ridge 5px #4995be;
+}
+footer .twitter{
+    transition:all 0.7s ease;
+}
+footer .twitter:hover{
+    color: #00ceee;
+    font-size: 24px;
+    font-style: italic;
+    border-bottom: ridge 5px #4995be;
+    border-right: ridge 5px #4995be;
+}
+footer .gmail{
+    transition:all 0.7s ease ;
+    margin-right: 20px;
+}
+footer .gmail:hover{
+    color: #d1594f;
+    font-size: 24px;
+    font-style: italic;
+    border-bottom: ridge 5px #c6c6c6;
+    border-right: ridge 5px #c6c6c6;
+}
+
+footer section{
+    color: white;
+    float: right;
+    margin-right: 20px;
+    
+}

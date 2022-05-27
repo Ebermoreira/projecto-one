@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+.cabecera{
+    background-color: antiquewhite;
+    color: white;  
+    height: 140px;
+    background: 
+    linear-gradient(135deg, black 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, black 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, black 25%, transparent 25%),
+    linear-gradient(45deg, black 25%, transparent 25%);	
+    background-size: 4em 4em;
+    background-color: #232323;
+    animation: BgGradient 7s ease infinite;
+}
+.ea{
+    margin-top: 5px;
+    margin-left: 45px;
+    font-size: 45px;
+    transition: all 0.7s ease;
+}
+.ea:hover{
+   color: gold;
+   cursor: pointer;
+   font-size: 55px;
+}
+.titulo{
+    font-size: 45px;
+    margin-left: 25px;
+    transition: all 0.7s ease;
+}
+.titulo:hover{
+    cursor: pointer;
+    font-size: 50px;
+    color:orange;
+}
+nav{
+    background-color: #5c3367;
+
+    height: 40px;
+    text-align: center;
+    background: 
+    linear-gradient(135deg, black 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, black 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, black 25%, transparent 25%),
+    linear-gradient(45deg, black 25%, transparent 25%);	
+    
+    background-color: #232323;
+    animation: BgGradient 7s ease infinite;
+}
+ul li{
+    
+   list-style: none;
+   display: inline-block;
+   
+   
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size: 15px;
+    transition: all 0.7s ease;
+}
+ul li a:hover{
+    font-size: 22px;
+    color: orange;
+}
+footer{
+    background: 
+    linear-gradient(135deg, black 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, black 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, black 25%, transparent 25%),
+    linear-gradient(45deg, black 25%, transparent 25%);	
+    background-size: 4em 4em;
+    background-color: #232323;
+    color: white;
+    height: 180px;
+    animation: BgGradient 7s ease infinite;
+}
+
+.articulo-one {
+    background-color: #ffffcc;
+    color: #660033;
+    height: 350px;
+}
+.articulo-one h4{
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+}
+.articulo-one img{
+  float: right;
+  margin-right: 50px;
+  width: 250px;
+}
+.articulo-one p{
+   width: 740px;
+   float: right;
+   line-height: 30px;
+   font-style: italic;
+   margin-right: 60px;
+   text-align: center;
+   margin-top: 75px;
+
+}
+.articulo-one a{
+    text-decoration: none;
+    color: crimson;
+    transition: color 1.2s ease;
+}
+.articulo-one a:hover{
+    color: blue;
+}
+.articulo-dos{
+    background-color: #ffccff;
+    color: #660033;
+    height: 350px;
+}
+.articulo-dos h4{
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+}
+.articulo-dos img{
+    float: left;
+    width: 350px;
+    margin-top: 22px;
+    margin-left: 20px;
+ }
+.articulo-dos p{
+    width: 740px;
+   float: left;
+   line-height: 30px;
+   font-style: italic;
+   margin-left: 100px;
+   text-align: center;
+   margin-top: 75px;
+}
+.articulo-dos a{
+    text-decoration: none;
+    color: crimson;
+    transition: color 1.2s ease;
+}
+.articulo-dos a:hover{
+    color: blue;
+}
+
+.articulo-tres{
+    background-color: #ccffff;
+    color: #660033;
+    height: 350px;
+}
+.articulo-tres h4{
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+}
+.articulo-tres img{
+    float: right;
+    width: 400px;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+.articulo-tres p{
+    width: 700px;
+   float: right;
+   line-height: 30px;
+   font-style: italic;
+   margin-right: 100px;
+   text-align: center;
+   margin-top: 75px;
+}
+.articulo-tres a{
+    text-decoration: none;
+    color: crimson;
+    transition: color 1.2s ease;
+}
+.articulo-tres a:hover{
+    color:blue;
+}
+.articulo-cuatro{
+    background-color: #ccffcc;
+    color: #660033;
+    height: 350px;
+}
+.articulo-cuatro h4{
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+}
+.articulo-cuatro img{
+     width: 400px;
+     float: right;
+     margin-right: 40px;
+}
+.articulo-cuatro p{
+    width: 715px;
+    float: right;
+    line-height: 30px;
+    font-style: italic;
+    margin-right: 100px;
+    text-align: center;
+    margin-top: 75px;
+}
+.articulo-cuatro a{
+    text-decoration: none;
+    color: crimson;
+    transition: color 1.2s ease;
+}
+.articulo-cuatro a:hover{
+    color:blue;
+}
+.articulo-cinco{
+    background-color: #ffcc99;
+    color: #660033;
+    height: 350px;
+}
+.articulo-cinco h4{
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+}
+.articulo-cinco img{
+   float: left;
+   width: 350px;
+   margin-left: 35px;
+
+}
+.articulo-cinco p{
+    width: 715px;
+    float: left;
+    line-height: 30px;
+    font-style: italic;
+    margin-left: 80px;
+    text-align: center;
+    margin-top: 55px;
+}
+.articulo-cinco a{
+    text-decoration: none;
+    color:crimson;
+    transition: color 1.2s ease;
+}
+.articulo-cinco a:hover{
+    color:blue;
+}
+.articulo-seis{
+    background-color: #cc99cc;
+    color: #660033;
+    height: 350px;
+}
+.articulo-seis h4{
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+}
+.articulo-seis img{
+   float: right;
+   width: 300px;
+   margin-right: 30px;
+}
+.articulo-seis p{
+    width: 700px;
+    float: right;
+    line-height: 35px;
+    font-style: italic;
+    margin-right: 80px;
+    text-align: center;
+    margin-top: 75px;
+}
+.articulo-seis a{
+    text-decoration: none;
+    color: crimson;
+    transition: color 1.2s ease;
+}
+.articulo-seis a:hover{
+    color: blue;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    margin-left: 10vw;
+    line-height: 10vw;
+}
+@keyframes BgGradient{
+    20%{
+        background-position: 20% 30%;
+    }
+    40%{
+        background-position: 40% 50%;
+    }
+    80%{
+        background-position: 20% 10%;
+    }
+    
+}
+footer .facebook{
+    transition: all 0.7s ease;
+}
+footer .facebook:hover{
+      color: rgb(96, 96, 255);
+      font-size: 24px;
+      font-style: italic;
+      border-bottom: ridge 5px blue ;
+      border-right: ridge 5px blue;
+}
+footer .instagram{
+   transition: all 0.7s ease;
+}
+footer .instagram:hover{
+    color: #fd8bb1;
+    font-size: 24px;
+    font-style: italic;
+    border-bottom: ridge 5px #e1306c ;
+    border-right: ridge 5px #e1306c;
+}
+footer .whatsapp{
+    transition: all 0.7s ease;
+}
+
+footer .whatsapp:hover{
+    color: #25d366;
+    font-size: 24px;
+    font-style: italic;
+    border-bottom: ridge 5px #25d366 ;
+    border-right: ridge 5px #25d366;
+}
+footer .telegram{
+    transition:all 0.7s ease ;
+}
+footer .telegram:hover{
+    color: #6cc1e3;
+    font-size: 24px;
+    font-style: italic;
+    border-bottom: ridge 5px #4995be;
+    border-right: ridge 5px #4995be;
+}
+footer .twitter{
+    transition:all 0.7s ease;
+}
+footer .twitter:hover{
+    color: #00ceee;
+    font-size: 24px;
+    font-style: italic;
+    border-bottom: ridge 5px #4995be;
+    border-right: ridge 5px #4995be;
+}
+footer .gmail{
+    transition:all 0.7s ease ;
+    margin-right: 20px;
+}
+footer .gmail:hover{
+    color: #d1594f;
+    font-size: 24px;
+    font-style: italic;
+    border-bottom: ridge 5px #c6c6c6;
+    border-right: ridge 5px #c6c6c6;
+}
+
+footer section{
+    color: white;
+    float: right;
+    margin-right: 20px;
+
+    
+}
